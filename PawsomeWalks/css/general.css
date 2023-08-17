@@ -1,0 +1,139 @@
+/*
+
+--- 01  TYPOGRAPHY SYSTEM
+-font size system (px):
+    10px = 1rem / 12px = 1.2rem / 14px = 1.4rem / 16px = 1.6rem / 18px = 1.8rem
+    / 20px = 2rem / 24px = 2.4rem / 30px = 3rem / 36px = 3.6rem / 44px = 4.4rem
+    / 52px = 5.2rem / 62px = 6.2rem / 74px = 7.4rem / 86px = 8.6rem / 98px = 9.8rem
+
+-font weights:
+    Default: 400
+    Medium:500
+    Semi-bold:600
+    Bold:700
+
+-line heights:
+    Default: 1
+    Small: 1.05
+    Paragraph default: 1.6
+
+- Letter spacing
+
+
+--- 02 COLORS
+-Primary:
+    #e67e22
+-Tints:
+    #fdf2e9
+-Shades:
+    #cf711f
+-Accents:
+
+-Greys:
+    #555 / #333
+
+--- 03 SHADOWS
+
+--- 04 BORDER-RADIUS
+    9px
+
+--- 05 WHITESPACE
+-spacing system (px):
+    2px = 0.2rem / 4px = 0.4rem / 8px = 0.8rem / 12px = 1.2rem / 16px = 1.6rem
+    / 24px = 2.4rem / 32px = 3.2rem / 48px = 4.8rem / 64px = 6.4rem / 80px = 8rem
+    / 96px = 9.6rem / 128px = 12.8rem
+
+*/
+
+:root {
+    /*--- 02 COLORS*/
+    --primary: #4CAF50;
+    --tint: #edf7ee;
+    --shade: #3d8c40;
+
+    /*--- 02 COLORS*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    /*overflow-x: hidden;*/
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    /* Only works if there is nothing absolutely positioned in relation to body */
+    overflow-x: hidden;
+}
+
+
+/* ------------------------------------ */
+/* HEADING TEXTS */
+/* ------------------------------------ */
+
+.heading-primary
+,.heading-secondary,
+.heading-tertiary {
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
+.heading-primary {
+    font-size: 4.8rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+}
+
+/*.heading-secondary {*/
+/*    font-size: ;*/
+/*}*/
+
+
+
+/* ------------------------------------ */
+/* BUTTONS */
+/* ------------------------------------ */
+
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.6rem 3.2rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.3s;
+}
+
+.btn--hero:link,
+.btn--hero:visited {
+    padding: 1.6rem 8rem;
+}
+
+.btn--hero:link,
+.btn--hero:visited {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.btn--hero:hover,
+.btn--hero:active {
+    border: 0.2rem solid var(--primary);
+    background: none;
+    color: var(--primary);
+}
+
+
+

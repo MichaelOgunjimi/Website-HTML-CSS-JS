@@ -1,0 +1,145 @@
+/*
+
+--- 01  TYPOGRAPHY SYSTEM
+-font size system (px):
+    10px = 1rem / 12px = 1.2rem / 14px = 1.4rem / 16px = 1.6rem / 18px = 1.8rem
+    / 20px = 2rem / 24px = 2.4rem / 30px = 3rem / 36px = 3.6rem / 44px = 4.4rem
+    / 52px = 5.2rem / 62px = 6.2rem / 74px = 7.4rem / 86px = 8.6rem / 98px = 9.8rem
+
+-font weights:
+    Default: 400
+    Medium:500
+    Semi-bold:600
+    Bold:700
+
+-line heights:
+    Default: 1
+    Small: 1.05
+    Paragraph default: 1.6
+
+- Letter spacing
+
+
+--- 02 COLORS
+-Primary:
+    #e67e22
+-Tints:
+    #fdf2e9
+-Shades:
+    #cf711f
+-Accents:
+
+-Greys:
+    #555 / #333
+
+--- 03 SHADOWS
+
+--- 04 BORDER-RADIUS
+    9px
+
+--- 05 WHITESPACE
+-spacing system (px):
+    2px = 0.2rem / 4px = 0.4rem / 8px = 0.8rem / 12px = 1.2rem / 16px = 1.6rem
+    / 24px = 2.4rem / 32px = 3.2rem / 48px = 4.8rem / 64px = 6.4rem / 80px = 8rem
+    / 96px = 9.6rem / 128px = 12.8rem
+
+*/
+
+:root {
+    /*--- 02 COLORS*/
+    --primary: #4CAF50;
+    --tint: #edf7ee;
+    --shade: #3d8c40;
+
+    /*--- 02 TEXTS */
+}
+
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--tint);
+    padding: 0 4.8rem;
+
+
+
+/*    if want to make the header sticky */
+    height: 9.6rem;
+    position: relative;
+}
+
+.logo {
+    height: 5rem;
+}
+
+/**************************/
+/* SECTION HERO */
+/**************************/
+.section-hero {
+    background-color: var(--tint);
+    padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-description {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-bottom: 3.2rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 4.8rem;
+    align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: var(--primary);
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    border: 0.2rem solid var(--primary);
+    padding: 1.6rem 3.2rem;
+    color: var(--primary);
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    background-color: var(--primary);
+    color: #fff;
+}
