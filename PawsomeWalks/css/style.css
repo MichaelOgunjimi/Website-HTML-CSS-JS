@@ -143,3 +143,82 @@
     background-color: var(--primary);
     color: #fff;
 }
+
+
+/**************************/
+/* ABOUT US */
+/**************************/
+.section-about-us {
+    padding: 9.6rem 0;
+}
+
+.about-box {
+    width: 50%;
+}
+
+.about-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 3.2rem;
+}
+
+.value-box {
+    background-color: var(--tint);
+    padding: 3.2rem 4.8rem;
+    border-radius: 9px;
+}
+
+.about-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+.about-text{
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+/**************************/
+/*  HOW IT WORKS */
+/**************************/
+.section-how {
+    padding: 9.6rem 0;
+}
+.heading-secondary.htw{
+    margin-bottom: 9.8rem;
+}
+
+.step {
+    padding: 2.4rem;
+    background-color: var(--tint);
+}
+
+.step-logo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3.2rem;
+}
+
+.step-number {
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: #ddd;
+    /*margin-bottom: 1.2rem;*/
+}
+
+.how-logo {
+    font-size: 9.8rem;
+    color: #333;
+    /*background-color: var(--tint);*/
+    border-radius: 9px;
+}
+
+.htw-title {
+
+}
+
+.htw-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
