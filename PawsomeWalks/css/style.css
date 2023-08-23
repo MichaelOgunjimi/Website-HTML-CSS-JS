@@ -66,8 +66,7 @@
     padding: 0 4.8rem;
 
 
-
-/*    if want to make the header sticky */
+    /*    if want to make the header sticky */
     height: 9.6rem;
     position: relative;
 }
@@ -168,12 +167,13 @@
     border-radius: 9px;
 }
 
-.about-title{
+.about-title {
     font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 1.6rem;
 }
-.about-text{
+
+.about-text {
     font-size: 1.4rem;
     line-height: 1.8;
 }
@@ -184,7 +184,8 @@
 .section-how {
     padding: 9.6rem 0;
 }
-.heading-secondary.htw{
+
+.heading-secondary.htw {
     margin-bottom: 9.8rem;
 }
 
@@ -221,4 +222,123 @@
 .htw-text {
     font-size: 1.6rem;
     line-height: 1.6;
+}
+
+/**************************/
+/*  GALLERY */
+/**************************/
+.section-gallery {
+    background-color: var(--tint);
+    padding: 9.6rem 3.2rem;
+
+}
+
+/*.gallery {*/
+/*    display: grid;*/
+/*    grid-gap: 10px;*/
+/*    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
+/*    grid-auto-rows: 200px;*/
+/*    grid-auto-flow: dense;*/
+/*}*/
+
+
+/*.gallery-item {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.gallery-item img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*    border-radius: 5px;*/
+/*    display: inline-block;*/
+/*    max-width: 100%;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+/*.gallery-item img:hover {*/
+/*    transform: scale(1.05);*/
+/*}*/
+
+/*.gallery .wide {*/
+/*    grid-column: span 2;*/
+/*}*/
+
+/*.gallery .tall {*/
+/*    grid-row: span 2;*/
+/*}*/
+
+/*.gallery .big {*/
+/*    grid-column: span 2;*/
+/*    grid-row: span 2;*/
+/*}*/
+/*.gallery-item img {*/
+/*    vertical-align: auto;*/
+/*}*/
+
+
+
+/*!* Define the grid layout for each image *!*/
+/*.gallery-item:nth-child(1) {*/
+/*    grid-column: 1 / span 2;*/
+/*    grid-row: 1;*/
+/*}*/
+
+/*.gallery-item:nth-child(2) {*/
+/*    grid-column: 3 / 4;*/
+/*    grid-row: 1 / 3;*/
+/*}*/
+
+/*.gallery-item:nth-child(3) {*/
+/*    grid-column: span 2;*/
+/*    grid-row: 1;*/
+/*}*/
+
+/*.gallery-item:nth-child(4) {*/
+/*    grid-column: 1;*/
+/*    grid-row: 2 / 4;*/
+/*}*/
+
+/*.gallery-item:nth-child(5) {*/
+/*    grid-column: 2;*/
+/*    grid-row: 2;*/
+/*}*/
+
+/*.gallery-item:nth-child(6) {*/
+/*    grid-column: 4;*/
+/*    grid-row: 2;*/
+/*}*/
+
+/*.gallery-item:nth-child(7) {*/
+/*    grid-column: 5;*/
+/*    grid-row: span 2;*/
+/*}*/
+
+/*.gallery-item:nth-child(8) {*/
+/*    grid-column: 3 / span 2;*/
+/*}*/
+
+/*.gallery-item:nth-child(9) {*/
+/*    grid-column: 2 / 3;*/
+/*    grid-row: 3;*/
+/*}*/
+
+.gallery{
+    display: flex;
+    gap: 2rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
