@@ -50,3 +50,20 @@
     --tint: #edf7ee;
     --shade: #3d8c40;
 }
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    body{
+    }
+    .testimonial-box {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+    .testimonial-box {
+        grid-template-columns: 1fr; /* Single column on even smaller screens */
+    }
+}

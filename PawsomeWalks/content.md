@@ -68,14 +68,19 @@ seen the difference!
 **PawsomeWalks offers two subscription plans:**
 
 1. **Daily Explorer:** $249 per month
-    - A walk for your dog every day
-    - Suitable for high-energy dogs
-    - Extra attention and care
+   - A walk for your dog every day
+   - Suitable for high-energy dogs
+   - Extra attention and care
 
 2. **Weekday Wanderer:** $149 per month
-    - Three walks per week (Monday, Wednesday, Friday)
-    - Ideal for dogs who love routine
-    - Tailored to busy schedules
+   - Three walks per week (Monday, Wednesday, Friday)
+   - Ideal for dogs who love routine
+   - Tailored to busy schedules
+   - Choose your preferred walking times
+-
+
+Choose the plan that best suits your dog's needs and your schedule. Whether your pup is an enthusiastic explorer or
+thrives on routine, PawsomeWalks has a subscription that will keep their tail wagging!
 
 ## Our Furry Friends
 
@@ -85,12 +90,32 @@ seen the difference!
 
 ![Happy Dogs](happy_dogs_testimonials.jpg)
 
-- "PawsomeWalks has been a lifesaver for me and my pup. I can't thank them enough for keeping my furry friend active and
-  excited!" - Sarah M.
-- "My dog's tail starts wagging as soon as the PawsomeWalks team arrives. They truly care about the well-being of our
-  pets." - Alex R.
-- "Being a busy professional, I was worried about my dog's exercise. PawsomeWalks has brought immense relief to my daily
-  routine." - Emily L.
+### Testimonials
+
+1. **Inexpensive and Convenient:**
+   *"PawsomeWalks has been a lifesaver for me and my furry friend. The convenience of having someone reliable to take my
+   dog for a walk, even on busy days, is priceless. And the affordable pricing makes it even better!"* - Lisa T.
+
+2. **Caring and Attentive:**
+   *"I couldn't be happier with the care my dog receives from PawsomeWalks. The walkers are not only professional but
+   also genuinely care about my dog's well-being. It's reassuring to know my pup is in safe hands."* - Michael R.
+
+3. **Happy Pup, Happy Me:**
+   *"Ever since signing up for PawsomeWalks, my dog's mood has been through the roof! The daily walks have done wonders
+   for his energy levels and overall happiness. I can't thank the team enough!"* - Sarah M.
+
+4. **Trustworthy and Reliable:**
+   *"As a working professional, it's a relief to have a dog walking service I can trust. PawsomeWalks has been
+   consistent and dependable, rain or shine. I'm at ease knowing my dog is getting the exercise and attention he
+   needs."* - James L.
+
+5. **Stronger Bonding Moments:**
+   *"The walks from PawsomeWalks have not only benefited my dog physically but have also strengthened our bond. We share
+   quality time exploring the neighborhood, and it's a joy to see him excited for our daily adventures."* - Emily C.
+
+6. **Loving and Dedicated Team:**
+   *"The team at PawsomeWalks truly loves dogs, and it shows in their dedication. My dog looks forward to each walk, and
+   I appreciate the updates they send after each outing. I'm grateful for the care they provide."* - Alex S.
 
 ## Connect with Us
 
